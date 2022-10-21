@@ -10,9 +10,7 @@ function Toolbar() {
             <div className='toolbar-tool'>
                 {/* <Counter /> */}
                 {/* <Attempt /> */}
-                <Message />
-
-                {/* show try number / show end game message */}
+                {/* <Message /> */}
             </div>
         </div>
     );
