@@ -1,4 +1,12 @@
+@import url('./../../index.css');
+
 .block-game {
+    width: 80vw;
+    height: 80vh;
+    background-color: whitesmoke;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: var(--box-shadow);
 }

@@ -1,14 +1,18 @@
-import { startGame } from ".";
+import Button from "../Button/Button";
 import Matrice from "../Matrice/Matrice";
-
+import Toolbar from "../Toolbar/Toolbar";
+import './style.css'
 export default function Game() {
     return (
         <div className="block-game">
+            <div className="game-item-toolbar">
+                <Toolbar />
+            </div>
             <div>
                 <Matrice />
             </div>
             <div>
-                <button onClick={startGame}>Lancez le jeu</button>
+                <Button />
             </div>
         </div>
     );

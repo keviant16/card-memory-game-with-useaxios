@@ -1,0 +1,24 @@
+@import url('../../index.css');
+
+.toolbar-container {
+    background-color: white;
+    box-shadow: var(--box-shadow);
+    padding: 15px;
+    position: absolute;
+    top: 2%;
+    right: 38%;
+    text-align: center;
+}
+
+.toolbar-title {
+    text-align: center;
+    color: var(--primary-color);
+    text-decoration: underline;
+    text-decoration-color: var(--secondary-color);
+
+}
+
+.toolbar-tool {
+    display: flex;
+    justify-content: center;
+}
