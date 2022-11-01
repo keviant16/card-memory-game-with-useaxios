@@ -1,0 +1,25 @@
+@import url('../../index.css');
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: var(--secondary-color);
+    padding: 10px;
+    gap: 10px;
+    margin-top: 75px;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255);
+    border: 3px solid rgba(255, 255, 255);
+    width: 90px;
+    height: 90px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.grid-item:hover {
+    color: var(--primary-color);
+    border: 3px solid var(--primary-color);
+    cursor: pointer;
+}

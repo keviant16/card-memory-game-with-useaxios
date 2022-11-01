@@ -1,0 +1,20 @@
+@import url('./../../index.css');
+
+.btn {
+    color: white;
+    background-color: var(--primary-color);
+    margin-bottom: 15px;
+    padding: 15px 35px;
+    border: none;
+    cursor: pointer;
+    box-shadow: var(--box-shadow);
+    position: absolute;
+    right: 47%;
+    bottom: 1%;
+    transform: translate(25%, 25%);
+}
+
+.btn:hover {
+    background-color: var(--primary-dark-color);
+    color: white;
+}
